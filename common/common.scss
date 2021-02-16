@@ -1,0 +1,38 @@
+
+.d-header,
+.category-breadcrumb,
+#navigation-bar,
+.topics,
+#topic-footer-buttons,
+.footer-message,
+.suggested-topics,
+.select-text,
+.navigation-controls,
+.edit-topic,
+#reply-control .category-input
+{
+    display:none;
+}
+
+body.admin #navigation-bar,
+body.admin .topics,
+body.admin #topic-footer-buttons,
+body.admin .select-text,
+body.admin .navigation-controls,
+body.admin .edit-topic
+{
+    display:block;
+}
+
+.category .select-text{
+    display:block;
+}
+
+.topic-category .badge-wrapper.bullet .badge-category-bg{
+    display:none;
+}
+
+.badge-wrapper.bullet span.badge-category{
+    color:var(--tertiary);
+    font-size:120%;
+}
