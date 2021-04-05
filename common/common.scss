@@ -1,4 +1,3 @@
-
 .d-header,
 .category-breadcrumb,
 #navigation-bar,
@@ -9,9 +8,8 @@
 .select-text,
 .navigation-controls,
 .edit-topic,
-#reply-control .category-input
-{
-    display:none;
+#reply-control .category-input {
+  display: none;
 }
 
 body.admin #navigation-bar,
@@ -19,20 +17,28 @@ body.admin .topics,
 body.admin #topic-footer-buttons,
 body.admin .select-text,
 body.admin .navigation-controls,
-body.admin .edit-topic
-{
-    display:block;
+body.admin .edit-topic {
+  display: block;
 }
 
-.category .select-text{
-    display:block;
+.category .select-text {
+  display: block;
 }
 
-.topic-category .badge-wrapper.bullet .badge-category-bg{
-    display:none;
+.topic-category .badge-wrapper.bullet .badge-category-bg {
+  display: none;
 }
 
-.badge-wrapper.bullet span.badge-category{
-    color:var(--tertiary);
-    font-size:120%;
+.badge-wrapper.bullet span.badge-category {
+  color: var(--tertiary);
+  font-size: 120%;
+}
+
+a.category-name {
+  font-size: 0;
+}
+
+a.category-name:after {
+  content: "Back to Topics";
+  font-size: 0.8706em;
 }
