@@ -34,11 +34,11 @@ body.admin .edit-topic {
   font-size: 120%;
 }
 
-a.category-name {
+span.category-name {
   font-size: 0;
 }
 
-a.category-name:after {
+span.category-name:after {
   content: "Back to Topics";
   font-size: 0.8706em;
 }
