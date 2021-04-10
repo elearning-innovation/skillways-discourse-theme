@@ -29,6 +29,14 @@ body.admin .edit-topic {
   display: none;
 }
 
+.topic-owner .full-name {
+  display: none !important;
+}
+
+.topic-post .username {
+  display: none;
+}
+
 .badge-wrapper.bullet span.badge-category {
   color: var(--tertiary);
   font-size: 120%;
