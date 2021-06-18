@@ -1,10 +1,12 @@
 <script type="text/discourse-plugin" version="0.8.23">
 let currentUser = api.getCurrentUser();
 if (currentUser && currentUser.admin) {
-    $('body').addClass('admin');
+  $('body').addClass('admin');
 }
 
 $( document ).ready(function() {
-$('.category-name').text('Back to Topics');
+  if (window.location.toString().includes('/t/')) {
+    $('.category-name').text('Back to Topics');
+  }
 });
 </script>
