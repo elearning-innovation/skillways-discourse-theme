@@ -4,8 +4,8 @@ if (currentUser && currentUser.admin) {
   $('body').addClass('admin');
 }
 
-$( document ).ready(function() {
-  if (window.location.toString().includes('/t/')) {
+$(document).ready(function() {
+  if (window.location.toString().includes('/t/') && $(document.body).hasClass('archetype-regular')) {
     $('.category-name').text('Back to Topics');
   }
 });
