@@ -42,11 +42,14 @@ body.admin .edit-topic {
   font-size: 120%;
 }
 
-span.category-name {
-  font-size: 0;
+.archetype-regular {
+  span.category-name {
+    font-size: 0;
+  }
+
+  span.category-name:after {
+    content: "Back to Topics";
+    font-size: 18px;
+  }
 }
 
-span.category-name:after {
-  content: "Back to Topics";
-  font-size: 18px;
-}
