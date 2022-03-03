@@ -37,6 +37,10 @@ body.admin .edit-topic {
   display: none;
 }
 
+.topic-notifications-options {
+  display: none !important;
+}
+
 .badge-wrapper.bullet span.badge-category {
   color: var(--tertiary);
   font-size: 120%;
