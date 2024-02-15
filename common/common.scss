@@ -1,3 +1,7 @@
+body:not(.admin) .sidebar-wrapper {
+  display: none;
+}
+
 /*
 .d-header,
 .category-breadcrumb,
