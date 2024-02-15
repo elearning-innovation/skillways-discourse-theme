@@ -3,7 +3,7 @@ html:not(.admin-area) .sidebar-wrapper {
 }
 
 html:not(.admin-area) body.has-sidebar-page #main-outlet-wrapper {
-  grid-template-columns: 1fr;
+  grid-template-columns: 0 1fr;
 }
 
 html:not(.admin-area) .d-header {
