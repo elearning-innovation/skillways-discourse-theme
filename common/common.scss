@@ -2,6 +2,10 @@ html:not(.admin-area) .sidebar-wrapper {
   display: none;
 }
 
+html:not(.admin-area) body.has-sidebar-page #main-outlet-wrapper {
+  grid-template-columns: 1fr;
+}
+
 /*
 .d-header,
 .category-breadcrumb,
