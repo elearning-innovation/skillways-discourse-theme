@@ -1,11 +1,17 @@
-html:not(.admin-area) .sidebar-wrapper {
-  display: none;
-}
+html:not(.admin-area) {
+  .sidebar-wrapper {
+    display: none;
+  }
 
-html:not(.admin-area) body.has-sidebar-page #main-outlet-wrapper {
-  grid-template-columns: 0 1fr;
-}
+  body.has-sidebar-page #main-outlet-wrapper {
+    grid-template-columns: 0 1fr;
+  }
 
-html:not(.admin-area) .d-header {
-  display: none;
+  .d-header {
+    display: none;
+  }
+
+  .alert-emails-disabled {
+    display: none;
+  }
 }
