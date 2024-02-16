@@ -1,5 +1,7 @@
 <script type="text/discourse-plugin" version="0.8.23">
-  console.log(api)
+  if (api.getCurrentUser().admin) {
+    alert('you\'re and admin')
+  }
   // let currentUser = api.getCurrentUser();
   // if (currentUser && currentUser.admin) {
   //   $('body').addClass('admin');
