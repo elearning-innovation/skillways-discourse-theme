@@ -19,9 +19,15 @@ body:not(.is-admin) {
   .edit-topic,
   .list-controls,
   .more-topics__container,
+  .post-controls .actions button,
   .timeline-controls,
+  .topic-notifications-button,
   .topic-statuses {
     display: none;
+  }
+
+  .post-controls .actions button:last-child {
+    display: block;
   }
 
 }
