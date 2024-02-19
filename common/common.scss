@@ -22,3 +22,12 @@ body:not(.is-admin) {
   }
 
 }
+
+.badge-category__name {
+  visibility: hidden;
+}
+
+.badge-category__name::before {
+  content: "Back to topcis";
+  text-indent: 1.1rem;
+}
