@@ -27,7 +27,7 @@ body:not(.is-admin) {
   visibility: hidden;
 }
 
-.badge-category__name::before {
+.badge-category__wrapper .badge-category:before {
   content: "Back to topcis";
   text-indent: 1.1rem;
 }
