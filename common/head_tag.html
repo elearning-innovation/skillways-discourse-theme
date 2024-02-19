@@ -1,10 +1,3 @@
 <script type="text/discourse-plugin" version="0.8.23">
-  if (api.getCurrentUser().admin)
-    $('body').addClass('is-admin');
-
-  // $(document).ready(function() {
-  //   if (window.location.toString().includes('/t/') && $(document.body).hasClass('archetype-regular')) {
-  //     $('.badge-category__name').text('Back to Topics');
-  //   }
-  // });
+  if (api.getCurrentUser().admin) $('body').addClass('is-admin');
 </script>
