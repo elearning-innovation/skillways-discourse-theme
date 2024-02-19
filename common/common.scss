@@ -11,3 +11,14 @@ html:not(.admin-area) {
   }
 
 }
+
+body:not(.is-admin) {
+
+  footer,
+  .bulk-select,
+  .list-controls,
+  .more-topics__container {
+    display: none;
+  }
+
+}
