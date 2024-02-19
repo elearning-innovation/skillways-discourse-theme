@@ -16,8 +16,10 @@ body:not(.is-admin) {
 
   footer,
   .bulk-select,
+  .edit-topic,
   .list-controls,
-  .more-topics__container {
+  .more-topics__container,
+  .topic-statuses {
     display: none;
   }
 
