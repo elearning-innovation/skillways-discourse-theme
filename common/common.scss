@@ -27,7 +27,8 @@ body:not(.is-admin) {
     display: none;
   }
 
-  .post-controls .actions>button:last-child {
+  .post-controls .actions>button:last-child,
+  .topic-footer-main-buttons>button:last-child {
     display: block;
   }
 
