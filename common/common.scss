@@ -15,18 +15,22 @@ html:not(.admin-area) {
 body:not(.is-admin) {
 
   footer,
+  #d-tooltip-portal-outlet,
   .bulk-select,
   .edit-topic,
   .list-controls,
   .more-topics__container,
+  .pinned-button,
   .post-controls .actions button,
   .timeline-controls,
+  .topic-footer-main-buttons button,
   .topic-notifications-button,
   .topic-statuses {
     display: none;
   }
 
-  .post-controls .actions>button:last-child {
+  .post-controls .actions>button:last-child,
+  .topic-footer-main-buttons>button:last-child {
     display: block;
   }
 
