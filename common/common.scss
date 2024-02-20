@@ -1,27 +1,20 @@
-:root:not(.admin-area) {
+:root:not(.is-admin) {
   --d-sidebar-width: 0;
 }
 
-html:not(.admin-area) {
-
-  .alert-emails-disabled,
-  .d-header,
-  .sidebar-wrapper {
-    display: none;
-  }
-
-}
-
-body:not(.is-admin) {
+html:not(.is-admin) {
 
   footer,
   #d-tooltip-portal-outlet,
+  .alert-emails-disabled,
   .bulk-select,
   .edit-topic,
+  .d-header,
   .list-controls,
   .more-topics__container,
   .pinned-button,
   .post-controls .actions button,
+  .sidebar-wrapper,
   .timeline-controls,
   .topic-footer-main-buttons button,
   .topic-notifications-button,
