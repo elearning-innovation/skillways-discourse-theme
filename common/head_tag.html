@@ -1,3 +1,10 @@
 <script type="text/discourse-plugin" version="0.8.23">
-  if (api.getCurrentUser().admin) $('html').addClass('is-admin');
+  const currentUser = api.getCurrentUser();
+  if (
+    currentUser !== null
+    && Object.hasOwn(currentUser, 'admin')
+    && currentUser.admin === true
+  ) {
+    $('html').addClass('is-admin');
+  }
 </script>
